@@ -42,7 +42,7 @@ function App() {
         <Alert alert={alert} />
         <Switch>
         
-          <Route path="/home">
+          <Route path="/">
             <div className="container my-3">
               <Textform
                 mode={mode}
